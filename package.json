@@ -7,9 +7,11 @@
     "start": "cross-env NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cross-env": "^7.0.2",
     "express": "^4.17.1",
     "next": "latest",
+    "puppeteer": "^5.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
